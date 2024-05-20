@@ -1,0 +1,32 @@
+.wert{
+    background-image: url(/cool-avatar-style-in-roblox-17tbqascsjatk9hv.jpg);
+    background-size: cover;
+    height: 90vh;
+}
+
+.power{
+    margin-top: 25px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.power img{
+    width: 400px;
+}
+
+.power .nice{
+    width: 500px;
+}
+
+
+
+@media screen and (max-width :480px)  {
+    .wert{
+        background-image: url(/cool-avatar-style-in-roblox-17tbqascsjatk9hv.jpg);
+        background-size: contain;
+        height: 25vh;  
+        background-repeat: no-repeat;
+    }
+     
+}
